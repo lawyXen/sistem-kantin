@@ -1,0 +1,97 @@
+.frame {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+/* Styling untuk tombol-tombol accordion */
+.accordion-button {
+    background-color: #f8f9fa;
+    color: #212529;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.accordion-button:hover {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+.accordion-button.collapsed {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.accordion-body {
+    padding: 1rem;
+    background-color: #fff;
+    border-top: 1px solid #e9ecef;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+.search-form input {
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+}
+.search-form button {
+    padding: 10px;
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-left: none;
+    background-color: #007bff;
+    color: white;
+}
+.search-form button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.rectangle-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.rectangle {
+    width: 23%;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.rectangle:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.rectangle h4 {
+    margin-bottom: 10px;
+}
+.rectangle ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.rectangle-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+

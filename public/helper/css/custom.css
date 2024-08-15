@@ -1,0 +1,72 @@
+/* Modal container */
+.custom-modal {
+    display: none;
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal content */
+.custom-modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+/* Modal header */
+.custom-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+}
+
+/* Modal title */
+.custom-modal-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Close button */
+.custom-modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* Modal body */
+.custom-modal-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Modal footer */
+.custom-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #dee2e6;
+    padding-top: 10px;
+}
+
+/* Button styling */
+.custom-modal .btn {
+    margin-right: 10px;
+}
